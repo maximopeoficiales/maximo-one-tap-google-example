@@ -1,7 +1,7 @@
 <resources>
-	<string name="app_name">One Tap Sign-in Sample</string>
+	<string name="app_name">App de Prueba</string>
 
 	<string name="your_web_client_id">535635240156-up74immcnp5vq37srs7b6i7ld182q8ch.apps.googleusercontent.com</string>
     <string name="user">%1$s\n%2$s</string>
-    <string name="signIn">Sign In</string>
+    <string name="signIn">Iniciar Sesion</string>
 </resources>
