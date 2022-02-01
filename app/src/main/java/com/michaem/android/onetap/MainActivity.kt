@@ -132,7 +132,9 @@ class MainActivity : AppCompatActivity() {
                     startActivity(intent)
 
                 } catch (e: ApiException) {
+                    Log.d(TAG, e.statusCode.toString());
                     when (e.statusCode) {
+
                         CommonStatusCodes.CANCELED -> {
                             Log.d(TAG, "One-tap dialog was closed.")
                             // Don't re-prompt the user.
